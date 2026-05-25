@@ -1,3 +1,4 @@
+import { useState } from "react";
 import { Route, Routes } from "react-router-dom";
 
 import Header from "./components/Header/Header";
@@ -9,20 +10,25 @@ import About from "./pages/About/About";
 import Contact from "./pages/Contact/Contact";
 
 function App() {
+  const [darkMode, setDarkMode] = useState(false);
+
+  function toggleTheme() {
+    setDarkMode(!darkMode);
+  }
   return (
     <>
-      <Header />
+      <div className={darkMode ? "app dark" : "app"}>
+        <Header darkMode={darkMode} toggleTheme={toggleTheme} />
 
-      <main>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/menu" element={<Menu />} />
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
-      </main>
 
-      <Footer />
+        <Footer />
+      </div>
     </>
   );
 }

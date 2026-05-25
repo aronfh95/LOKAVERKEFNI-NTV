@@ -1,5 +1,11 @@
+import "./About.css";
+
 function About() {
-  return <h1>About</h1>;
+  return (
+    <section className="about">
+      <h1>Um okkur</h1>
+    </section>
+  );
 }
 
 export default About;

@@ -1,0 +1,16 @@
+.home {
+  text-align: center;
+  padding: 120px 20px;
+}
+
+.home h1 {
+  font-size: 4rem;
+  color: var(--dark);
+
+  margin-bottom: 20px;
+}
+
+.home p {
+  font-size: 1.5rem;
+  color: var(--secondary);
+}

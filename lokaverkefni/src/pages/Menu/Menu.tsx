@@ -1,5 +1,11 @@
+import "./Menu.css";
+
 function Menu() {
-  return <h1>Menu</h1>;
+  return (
+    <section className="menu">
+      <h1>Matseðill</h1>
+    </section>
+  );
 }
 
 export default Menu;

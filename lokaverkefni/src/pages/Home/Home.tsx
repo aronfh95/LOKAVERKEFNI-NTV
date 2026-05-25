@@ -1,5 +1,13 @@
+import "./Home.css";
+
 function Home() {
-  return <h1>Home</h1>;
+  return (
+    <section className="home">
+      <h1>Velkomin á Litla Lemon</h1>
+
+      <p>Ferskur matur og notaleg stemning</p>
+    </section>
+  );
 }
 
 export default Home;
