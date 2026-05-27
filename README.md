@@ -40,3 +40,10 @@ Vefsíða inniheldur:
 - Added dark mode and lhigt mode
 - Added lemon them styling
 - Improved Navigation Styling
+
+### vika 2
+
+- create manu page
+- create menu data in a separate file
+- add TypeScript typs for menu items
+- use .map() to render menu

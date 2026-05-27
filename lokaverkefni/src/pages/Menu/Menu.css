@@ -1,4 +1,66 @@
 .menu {
   padding: 100px 20px;
+  display: flex;
+  justify-content: center;
+  background-color: var(--light);
+}
+
+.menu-paper {
+  width: 100%;
+  max-width: 1000px;
+  background-color: var(--dark);
+  color: var(--light);
+  padding: 60px 50px;
   text-align: center;
+  border-radius: 18px;
+  border: 3px solid var(--primary);
+  box-shadow: 0 12px 35px rgb(0, 0, 0, 0.25);
+}
+
+.menu-paper h1 {
+  font-size: 4rem;
+  letter-spacing: 12px;
+  margin-bottom: 45px;
+  font-weight: 400;
+  color: var(--primary);
+}
+
+.menu-section {
+  margin-bottom: 35px;
+}
+
+.menu-section h2 {
+  font-size: 1.8rem;
+  letter-spacing: 7px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  color: var(--primary);
+}
+
+.menu-item {
+  display: flex;
+  justify-content: space-between;
+  gap: 25px;
+  font-size: 1rem;
+  letter-spacing: 1px;
+  margin-bottom: 14px;
+  color: var(--light);
+}
+
+.menu-item span:first-child {
+  text-align: left;
+}
+
+.menu-item span:last-child {
+  white-space: nowrap;
+  color: var(--primary);
+  font-weight: bold;
+}
+
+.divider {
+  width: 90px;
+  height: 4px;
+  background-color: var(--primary);
+  margin: 28px auto 0;
+  border-radius: 20px;
 }
