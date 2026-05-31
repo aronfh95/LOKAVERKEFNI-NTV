@@ -13,7 +13,7 @@
 }
 
 .home-subtitle {
-  color: var(--secondary);
+  color: var(--dark);
   font-weight: bold;
   letter-spacing: 4px;
   text-transform: uppercase;

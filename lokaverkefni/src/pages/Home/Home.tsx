@@ -5,7 +5,7 @@ function Home() {
   return (
     <section className="home">
       <div className="home-content">
-        <p className="home-subtitle">Ferskt • Létt • Lúxus</p>
+        <h2 className="home-subtitle">Ferskt • Létt • Lúxus</h2>
 
         <h1>Velkomin á Litla Lemon</h1>
 

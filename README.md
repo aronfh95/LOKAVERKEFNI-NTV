@@ -50,3 +50,5 @@ Vefsíða inniheldur:
 - Improve homepage design
 - Add a call to action button linking to menu page
 - Improved responsiv design for homepage and menu
+- Add About page
+- Add css to About page

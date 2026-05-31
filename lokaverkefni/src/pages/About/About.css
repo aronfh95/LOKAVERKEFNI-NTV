@@ -1,4 +1,34 @@
 .about {
-  padding: 100px 20px;
+  min-height: 75vh;
+  padding: 90px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--light);
+}
+
+.about-content {
+  max-width: 850px;
   text-align: center;
+}
+
+.about-subtitle {
+  color: var(--dark);
+  font-weight: bold;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.about h1 {
+  font-size: 3.5rem;
+  color: var(--dark);
+  margin-bottom: 30px;
+}
+
+.about p {
+  font-size: 1.2rem;
+  color: var(--text);
+  line-height: 1.7;
+  margin-bottom: 20px;
 }
