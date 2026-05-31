@@ -43,7 +43,10 @@ Vefsíða inniheldur:
 
 ### vika 2
 
-- create manu page
-- create menu data in a separate file
-- add TypeScript typs for menu items
-- use .map() to render menu
+- Create manu page
+- Create menu data in a separate file
+- Add TypeScript typs for menu items in types folder
+- Use .map() to render menu
+- Improve homepage design
+- Add a call to action button linking to menu page
+- Improved responsiv design for homepage and menu
