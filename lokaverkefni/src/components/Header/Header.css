@@ -50,3 +50,79 @@
   background-color: var(--dark);
   color: var(--light);
 }
+
+.logo-img {
+  width: 70px;
+  height: 70px;
+  object-fit: contain;
+  padding-right: 10px;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.menu-btn {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .header {
+    position: relative;
+    padding: 15px 20px;
+  }
+
+  .logo-img {
+    width: 55px;
+    height: 55px;
+  }
+
+  .logo {
+    font-size: 1.8rem;
+  }
+
+  .menu-btn {
+    display: block;
+
+    background: transparent;
+    border: 2px solid var(--dark);
+    color: var(--dark);
+
+    font-size: 1.5rem;
+
+    border-radius: 8px;
+    padding: 6px 12px;
+
+    cursor: pointer;
+  }
+
+  .nav {
+    display: none;
+
+    position: absolute;
+    top: 100%;
+    left: 0;
+
+    width: 100%;
+
+    background-color: var(--primary);
+
+    flex-direction: column;
+    align-items: center;
+
+    gap: 20px;
+    padding: 25px 0;
+
+    z-index: 999;
+  }
+
+  .nav.nav-open {
+    display: flex;
+  }
+
+  .nav a,
+  .theme-btn {
+    font-size: 1rem;
+  }
+}

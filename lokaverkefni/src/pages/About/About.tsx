@@ -1,3 +1,4 @@
+import { companyInfo } from "../../data/companyInfo";
 import "./About.css";
 
 function About() {
@@ -17,6 +18,19 @@ function About() {
           Markmiðið okkar er að bjóða upp á létta, fallega og bragðmikla rétti í
           rólegu og hlýlegu umhverfi.
         </p>
+
+        <h2>Upplýsingar um fyrirtækið</h2>
+
+        <table className="company-table">
+          <tbody>
+            {companyInfo.map((info) => (
+              <tr key={info.label}>
+                <th>{info.label}</th>
+                <td>{info.value}</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
       </div>
     </section>
   );

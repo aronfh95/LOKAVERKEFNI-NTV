@@ -52,3 +52,11 @@ Vefsíða inniheldur:
 - Improved responsiv design for homepage and menu
 - Add About page
 - Add css to About page
+
+### vika 3
+
+- Added contact page
+- Added form handling with useState
+- Added basic form validation
+- Added validation error message
+- Added Light Mode and Dark Mode logo support

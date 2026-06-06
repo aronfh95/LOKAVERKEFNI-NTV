@@ -32,3 +32,29 @@
   line-height: 1.7;
   margin-bottom: 20px;
 }
+
+.about h2 {
+  margin-top: 40px;
+  margin-bottom: 20px;
+  color: var(--dark);
+}
+
+.company-table {
+  width: 100%;
+  margin-top: 20px;
+  border-collapse: collapse;
+}
+
+.company-table th {
+  background-color: var(--dark);
+  color: var(--light);
+  text-align: left;
+  padding: 10px;
+  width: 35%;
+}
+
+.company-table td {
+  border: 1px solid var(--primary);
+  padding: 10px;
+  color: var(--text);
+}
